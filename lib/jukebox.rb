@@ -49,7 +49,7 @@ end
 def play(songs)
   selection = interact
   if !integer(songs, selection) 
-    puts "No"
+    puts "Invalid input, please try again"
    end
 end
 
