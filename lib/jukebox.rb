@@ -50,7 +50,7 @@ def play(songs)
   selection = interact
   if !integer(songs, selection) 
     puts "No"
-   
+   end
 end
 
 
