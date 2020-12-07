@@ -42,7 +42,7 @@ def play(songs)
     index = selection.to_i
     puts songs[index]
   end
-end
+
 
 
 def exit_jukebox 
