@@ -49,7 +49,6 @@ def play(songs)
   end
   puts tunes
 end
-end
 
 
 def exit_jukebox 
