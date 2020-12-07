@@ -52,8 +52,8 @@ end
 
 def play(songs)
   selection = interact
-  if !find(songs, selection) 
-    not_valid
+  if !not_valid
+  find(songs, selection) 
   end  
 end
 
