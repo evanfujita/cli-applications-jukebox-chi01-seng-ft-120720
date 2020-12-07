@@ -32,8 +32,7 @@ def interact
   gets.strip
 end
     
-def integer(songs, selection)
-    
+def find(songs, selection)
      if selection.size < 2
     index = selection.to_i - 1
       puts "#{songs[index]}"
@@ -46,12 +45,17 @@ def integer(songs, selection)
   end
 end
 
+def not_valid
+   puts "Invalid input, please try again"
+end 
+
 
 def play(songs)
   selection = interact
-  integer(songs, selection) 
-  
-   end
+  if !find(songs, selection) 
+    not_valid
+  end  
+end
 
 
 
