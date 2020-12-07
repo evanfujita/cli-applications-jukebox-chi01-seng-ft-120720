@@ -37,7 +37,7 @@ def integer(songs, selection)
       puts song end }
   elsif selection == "1"
     puts songs[1]
-  end
+
   end
 end
 
