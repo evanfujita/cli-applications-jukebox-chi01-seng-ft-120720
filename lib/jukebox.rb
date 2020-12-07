@@ -45,22 +45,12 @@ def find(songs, selection)
   end
 end
 
-def not_valid(songs, selection)
-   if selection.size > 2 && songs.none { |song| song == selection }
-     puts "Invalid input, please try again"
-    end
-  end
-
-
 
 def play(songs)
   selection = interact
-  if !not_valid
   find(songs, selection) 
   end  
 end
-
-
 
 
 def exit_jukebox 
