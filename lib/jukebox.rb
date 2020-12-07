@@ -38,9 +38,10 @@ def integer(songs, selection)
     index = selection.to_i - 1
       puts "#{songs[index]}"
     elsif 
-      songs.find { |song| 
-    if song == selection end} 
-      puts "#{song}" 
+      songs.find do |song| 
+    if song == selection
+      puts song
+    end
     else False
     end
   end
