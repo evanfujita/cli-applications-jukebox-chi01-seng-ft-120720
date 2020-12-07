@@ -42,6 +42,7 @@ def play(songs)
   if selection.to_i == "1"
     index = selection.to_i
     puts songs[index]
+  end
 end
 
 
