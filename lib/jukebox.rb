@@ -42,7 +42,7 @@ def play(songs)
   if songs.none? { |song| song == selection }
       puts "Invalid input, please try again"
   else
-    index = selection.to_i
+    index = selection.to_i + 1
     puts songs[index]
 end
 end
