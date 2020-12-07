@@ -34,14 +34,13 @@ end
     
 def integer(songs, selection)
   count = 0
-    while count.to_s != selection
+    until count.to_s == selection
     count += 1
     end
-    count == selection
+    
       puts songs[count]
     end
   end
-end
 
 
 def play(songs)
