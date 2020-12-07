@@ -33,7 +33,7 @@ def interact
 end
     
 def find(songs, selection)
-     tunes = false
+     tunes = "Invalid input, please try again"
      if selection.size < 2
     index = selection.to_i - 1
       tunes = "#{songs[index]}"
@@ -50,9 +50,8 @@ end
 
 def play(songs)
   selection = interact
-  if find(songs, selection) == false
-    puts "Invalid input, please try again"
-  end
+  find(songs, selection)
+  
 end
 
 
