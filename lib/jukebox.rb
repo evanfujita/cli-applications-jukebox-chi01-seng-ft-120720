@@ -46,8 +46,8 @@ def play(songs)
       songs.find do |song| 
     if song == selection 
     puts song 
-  elsif 
-     puts "Invalid input, please try again"
+  elsif songs.none? { |song| song == selection }
+      puts "Invalid input, please try again"
   end
 end
  end
