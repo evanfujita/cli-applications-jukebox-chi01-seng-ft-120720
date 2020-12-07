@@ -41,6 +41,7 @@ def integer(songs, selection)
     if song == selection 
       puts song
     end
+  end
 end
 
 
