@@ -36,7 +36,7 @@ def integer(songs, selection)
   if selection.size == 1
     index = selection.to_i
     puts songs[index]
-end
+  end
 end
 
 
@@ -46,7 +46,7 @@ def play(songs)
       puts "Invalid input, please try again"
   elsif songs.find { |song| if song == selection 
       puts song end }
-  else
+  elsif
     integer(selection)
 end
 end
