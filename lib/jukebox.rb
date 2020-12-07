@@ -45,8 +45,11 @@ def find(songs, selection)
   end
 end
 
-def not_valid
-   puts "Invalid input, please try again"
+def not_valid(songs, selection)
+   if selection.size > 2 && songs.none { |song| song == selection }
+     puts "Invalid input, please try again"
+    end
+  end
 end 
 
 
