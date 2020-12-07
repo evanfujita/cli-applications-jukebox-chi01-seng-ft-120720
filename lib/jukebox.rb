@@ -33,8 +33,8 @@ def interact
 end
     
 def integer(songs, selection)
-  songs.find do |song| 
-    if song == selection 
+  selection.find do |iterate| 
+    if iterate == "1"
     puts song 
   end
 end
