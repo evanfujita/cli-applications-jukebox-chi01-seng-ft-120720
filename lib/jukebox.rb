@@ -38,7 +38,6 @@ def integer(songs, selection)
     puts song 
   end
 end
-
 end
 
 def play(songs)
