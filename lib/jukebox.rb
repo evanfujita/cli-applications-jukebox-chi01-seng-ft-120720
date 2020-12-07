@@ -34,9 +34,10 @@ end
     
 def integer(songs, selection)
   count = 0
-  songs.each do |song|
+    while count.to_s != selection
     count += 1
-    if count == selection
+    end
+    count == selection
       puts songs[count]
     end
   end
