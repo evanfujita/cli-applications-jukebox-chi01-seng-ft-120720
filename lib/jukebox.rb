@@ -38,7 +38,6 @@ def integer(songs, selection)
     count += 1
   end
       puts songs[count]
-    end
   end
 
 
