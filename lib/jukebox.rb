@@ -44,7 +44,7 @@ def find(songs, selection)
     end
     end
   end
-  tunes
+  puts tunes
 end
 
 
