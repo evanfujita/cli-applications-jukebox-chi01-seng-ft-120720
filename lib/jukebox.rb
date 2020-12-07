@@ -39,7 +39,7 @@ end
 
 def play(songs)
   selection = interact
-    index = selection.to_i
+    index = selection.to_i - 1
     puts "#{songs[index]}"
   end
 
