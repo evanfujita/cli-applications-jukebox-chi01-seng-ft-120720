@@ -32,7 +32,10 @@ def interact
   gets.strip
 end
     
-def find(songs, selection)
+
+
+def play(songs)
+  selection = interact
      tunes = "Invalid input, please try again"
      if selection.size < 2
     index = selection.to_i - 1
@@ -46,12 +49,6 @@ def find(songs, selection)
   end
   puts tunes
 end
-
-
-def play(songs)
-  selection = interact
-  find(songs, selection)
-  
 end
 
 
