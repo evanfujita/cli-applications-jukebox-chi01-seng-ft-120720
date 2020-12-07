@@ -33,6 +33,7 @@ def interact
 end
     
 def integer(songs, selection)
+    
      if selection.size < 2
     index = selection.to_i - 1
       puts "#{songs[index]}"
@@ -40,6 +41,7 @@ def integer(songs, selection)
       songs.find { |song| 
     if song == selection end} 
       puts "#{song}" 
+    else False
     end
   end
 end
