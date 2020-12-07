@@ -35,7 +35,7 @@ end
 def integer(songs, selection)
   selection.find do |iterate| 
     if iterate == 1
-    puts song 
+    puts songs[1]
   end
 end
 end
