@@ -51,6 +51,7 @@ def play(songs)
   if !find(songs, selection) 
   puts "Invalid input, please try again!"
 end
+end
 
 
 def exit_jukebox 
