@@ -42,10 +42,6 @@ def integer(songs, selection)
   end
 end
 
-songs[index]
-end
-end
-
 def play(songs)
   selection = interact
   if songs.none? { |song| song == selection }
