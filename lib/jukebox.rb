@@ -36,7 +36,7 @@ def integer(songs, selection)
   if selection.size == 1
     index = selection.to_i
     puts songs[index]
-
+end
 end
 
 
