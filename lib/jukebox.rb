@@ -35,9 +35,8 @@ end
 def integer(songs, selection)
   if songs.find { |song| if song == selection 
       puts song end }
-  elsif selection == "1"
+  elsif selection == 1
     puts songs[1]
-
   end
 end
 
