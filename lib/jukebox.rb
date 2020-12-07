@@ -38,7 +38,7 @@ def integer(songs, selection)
       puts "#{songs[index]}"
     elsif 
       songs.find { |song| 
-    if song == selection } 
+    if song == selection end} 
       puts "#{song}" 
     end
   end
