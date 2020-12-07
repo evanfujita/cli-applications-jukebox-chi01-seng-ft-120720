@@ -33,16 +33,18 @@ def interact
 end
     
 def find(songs, selection)
+     tunes = false
      if selection.size < 2
     index = selection.to_i - 1
-      puts "#{songs[index]}"
+      tunes = "#{songs[index]}"
     elsif 
       songs.find do |song| 
     if song == selection
-      puts song
+      tunes = song
     end
     end
   end
+  tunes
 end
 
 
