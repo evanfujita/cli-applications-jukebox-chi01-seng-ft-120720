@@ -35,13 +35,11 @@ end
 def integer(songs, selection)
   if songs.find { |song| if song == selection 
       puts song end }
-  elsif selection == "1"
-    index = selection.to_i
-    puts songs[index]
-  end
+  elsif (0..9).to_s.each do |num| num == selection
+    puts selection
   
+  end
 end
-
 
 def play(songs)
   selection = interact
