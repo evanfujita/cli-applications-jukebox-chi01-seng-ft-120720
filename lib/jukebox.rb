@@ -48,7 +48,8 @@ def play(songs)
     puts song 
   end
 end
-  end
+ end
+ end
 
 
 
