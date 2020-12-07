@@ -39,7 +39,7 @@ def integer(songs, selection)
     elsif 
       songs.find do |song| 
     if song == selection 
-      puts song
+      puts "#{song}"
     end
     end
   end
