@@ -33,8 +33,10 @@ def interact
 end
     
 def integer(songs, selection)
-  index = selection.to_i
-  puts songs[index]
+  if selection.to_i == Integer
+    index = selection.to_i
+    puts songs[index]
+end
 end
 
 def play(songs)
