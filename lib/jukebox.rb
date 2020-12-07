@@ -33,9 +33,9 @@ def interact
 end
     
 def integer(songs, selection)
-  if selection.to_i == Integer
-    index = selection.to_i
-    puts songs[index]
+number = array.%w[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+number.find { |num| if num == selection index = num end}
+songs[index]
 end
 end
 
