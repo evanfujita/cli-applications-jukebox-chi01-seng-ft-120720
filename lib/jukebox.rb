@@ -40,7 +40,7 @@ end
 def play(songs)
   selection = interact
     index = selection.to_i
-    puts songs[index]
+    print songs[index]
   end
 
 
