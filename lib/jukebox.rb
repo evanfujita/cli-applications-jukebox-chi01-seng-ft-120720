@@ -37,7 +37,7 @@ def integer(songs, selection)
       puts song end }
   elsif (0..9).to_s.each do |num| num == selection
     puts selection
-  
+  end
   end
 end
 
