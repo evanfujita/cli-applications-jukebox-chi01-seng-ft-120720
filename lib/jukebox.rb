@@ -39,8 +39,10 @@ end
 
 def play(songs)
   selection = interact
+    if selection.size < 2
     index = selection.to_i - 1
     puts "#{songs[index]}"
+  end
   end
 
 
