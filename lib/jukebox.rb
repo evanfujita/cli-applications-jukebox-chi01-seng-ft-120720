@@ -33,7 +33,7 @@ def interact
 end
     
 def find(songs, selection)
-     
+     tunes = false
      if selection.size < 2
     index = selection.to_i - 1
       tunes = "#{songs[index]}"
