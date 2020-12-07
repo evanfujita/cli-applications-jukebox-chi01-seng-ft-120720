@@ -32,6 +32,10 @@ def interact
   gets.strip
 end
     
+def integer
+  
+end
+
 
 def play(songs)
   selection = interact
