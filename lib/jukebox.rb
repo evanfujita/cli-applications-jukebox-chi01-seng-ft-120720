@@ -48,7 +48,9 @@ end
 
 def play(songs)
   selection = interact
-  integer(songs, selection) 
+  if integer(songs, selection) 
+  else 
+    puts "NO"
 
 end
 
