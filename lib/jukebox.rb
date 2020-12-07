@@ -34,7 +34,7 @@ end
     
 def integer(songs, selection)
   index = selection.to_i
-  songs[index]
+  puts songs[index]
 end
 
 def play(songs)
