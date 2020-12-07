@@ -42,7 +42,6 @@ def integer(songs, selection)
     if song == selection
       puts song
     end
-    else False
     end
   end
 end
@@ -50,8 +49,8 @@ end
 
 def play(songs)
   selection = interact
-  if !integer(songs, selection) 
-    puts "Invalid input, please try again"
+  integer(songs, selection) 
+  
    end
 end
 
