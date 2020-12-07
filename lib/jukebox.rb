@@ -33,27 +33,24 @@ def interact
 end
     
 def integer(songs, selection)
-  index = selection.to_i
+     if selection.size < 2
+    index = selection.to_i - 1
+      puts "#{songs[index]}"
+    elsif 
+      songs.find do |song| 
+    if song == selection 
+      puts song
+    end
 end
 
 
 def play(songs)
   selection = interact
-    if selection.size < 2
-    index = selection.to_i - 1
-    puts "#{songs[index]}"
-    elsif 
-      songs.find do |song| 
-    if song == selection 
-    puts song 
-    end
-    elsif songs.none? { |song| song == selection }
-    
-      puts "Invalid input, please try again"
-  
+  if integer(songs, selection)
+  else
+    puts "Invalid input, please try again"
+ end
 end
- end
- end
 
 
 
