@@ -43,7 +43,7 @@ def play(songs)
       puts "Invalid input, please try again"
   elsif
     selection == "1"
-    
+    index = selection.to_i + 1
     puts songs[index]
 end
 end
