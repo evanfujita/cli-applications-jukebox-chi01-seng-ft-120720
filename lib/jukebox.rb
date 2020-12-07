@@ -47,6 +47,7 @@ def play(songs)
     if song == selection 
     puts song 
   end
+end
   end
 
 
