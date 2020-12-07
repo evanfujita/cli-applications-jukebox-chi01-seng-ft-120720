@@ -33,7 +33,7 @@ def interact
 end
     
 def integer(songs, selection)
-  puts selection  
+  puts selection
 end
 
 def play(songs)
