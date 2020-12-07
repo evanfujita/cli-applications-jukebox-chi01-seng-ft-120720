@@ -35,7 +35,7 @@ end
 def integer(songs, selection)
   if songs.find { |song| if song == selection 
       puts song end }
-  elsif selection.length < 10 
+  elsif selection.length < 4
     puts songs[1]
   end
 end
