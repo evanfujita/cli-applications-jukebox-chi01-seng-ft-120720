@@ -33,8 +33,12 @@ def interact
 end
     
 def integer(songs, selection)
-  songs.find { |song| if song == selection 
+  if songs.find { |song| if song == selection 
       puts song end }
+  else
+    puts "Hello"
+  end
+  
 end
 
 
