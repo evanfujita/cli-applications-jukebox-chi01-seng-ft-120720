@@ -50,7 +50,7 @@ def not_valid(songs, selection)
      puts "Invalid input, please try again"
     end
   end
-end 
+
 
 
 def play(songs)
