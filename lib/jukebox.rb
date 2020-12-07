@@ -36,8 +36,7 @@ def integer(songs, selection)
   count = 0
     until count.to_s == selection
     count += 1
-    end
-    
+  end
       puts songs[count]
     end
   end
