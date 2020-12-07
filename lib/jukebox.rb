@@ -42,6 +42,7 @@ def play(songs)
     if selection.size < 2
     index = selection.to_i - 1
     puts "#{songs[index]}"
+    elsif 
   end
   end
 
