@@ -33,7 +33,14 @@ def interact
 end
     
 def integer(songs, selection)
-
+  count = 0
+  songs.each do |song|
+    count += 1
+    if count.to_s == selection
+      puts songs[count]
+    end
+  end
+end
 
 songs[index]
 end
