@@ -36,11 +36,12 @@ def integer(songs, selection)
   count = 0
   songs.each do |song|
     count += 1
-    if count.to_s == selection
+    if count == selection
       puts songs[count]
     end
   end
 end
+
 
 def play(songs)
   selection = interact
