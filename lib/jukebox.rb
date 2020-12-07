@@ -33,11 +33,11 @@ def interact
 end
     
 def integer(songs, selection)
-  if songs.find { |song| if song == selection 
-      puts song end }
-  else
-    puts songs[1]
-  end
+  songs.find do |song| if song == selection 
+    puts song 
+  end 
+  
+
 end
 
 def play(songs)
