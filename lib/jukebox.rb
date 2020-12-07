@@ -52,6 +52,8 @@ def play(songs)
   selection = interact
   if find(songs, selection) == false
     puts "Invalid input, please try again"
+  else 
+    find(songs, selection)
   end
 
 end
